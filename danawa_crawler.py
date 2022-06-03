@@ -6,7 +6,6 @@ import time
 
 driver = webdriver.Chrome('chromedriver.exe')
 
-
 def main():
     wb = openpyxl.Workbook()
     ws = wb.active
